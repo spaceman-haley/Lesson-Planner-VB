@@ -101,6 +101,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_edit_week.Designer.vb">
+      <DependentUpon>frm_edit_week.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_edit_week.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_main.Designer.vb">
       <DependentUpon>frm_main.vb</DependentUpon>
     </Compile>
@@ -124,6 +130,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_edit_week.resx">
+      <DependentUpon>frm_edit_week.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
